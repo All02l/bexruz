@@ -1,0 +1,8 @@
+let tg = window.Telegram.WebApp;
+tg.expand(); // Открывает приложение на всю высоту
+
+document.getElementById('main-btn').addEventListener('click', () => {
+    // Сообщаем боту, что кнопка нажата
+    tg.sendData("course_enroll");
+    tg.close();
+});
