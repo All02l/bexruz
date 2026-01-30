@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <div class="content">
+            <h1 class="title">MY LIFE PLANNER 2026</h1>
+            <p class="subtitle">Xotirjam Hayot Strategiyasi</p>
 
+            <div class="video-container">
+                <div class="placeholder-video">VIDEO PREVIEW</div>
+            </div>
+
+            <div class="button-group">
+                <button id="main-btn" class="btn success">KURSGA YOZILISH</button>
+                <button class="btn dark">KURS HAQIDA BATAFSIL</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
